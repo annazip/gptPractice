@@ -14,6 +14,7 @@ import RealmSwift
 class ViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
+    @IBOutlet var add: UIButton!
     
     let realm = try! Realm()
     var items: [ShoppingItem] = []

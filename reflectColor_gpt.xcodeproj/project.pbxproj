@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		4D3D94B62C3A6FE8006857B3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4D3D94B52C3A6FE8006857B3 /* Alamofire */; };
 		4D3D94BA2C3A708A006857B3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D94B92C3A708A006857B3 /* SecondViewController.swift */; };
-		4D3D94C62C48B67F006857B3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4D3D94C52C48B67F006857B3 /* RealmSwift */; };
 		4D3D94C82C48BBAE006857B3 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D94C72C48BBAE006857B3 /* ShoppingItem.swift */; };
 		4D3D94CB2C48C1B3006857B3 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D94C92C48C1B3006857B3 /* ItemTableViewCell.swift */; };
 		4D3D94CC2C48C1B3006857B3 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D3D94CA2C48C1B3006857B3 /* ItemTableViewCell.xib */; };
 		4D3D94CE2C48C7F6006857B3 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D94CD2C48C7F6006857B3 /* NewItemViewController.swift */; };
+		4D3D94D32C48D36F006857B3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4D3D94D22C48D36F006857B3 /* RealmSwift */; };
 		4DBAD03C2C3A5E3C00B4FDF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAD03B2C3A5E3C00B4FDF1 /* AppDelegate.swift */; };
 		4DBAD03E2C3A5E3C00B4FDF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAD03D2C3A5E3C00B4FDF1 /* SceneDelegate.swift */; };
 		4DBAD0402C3A5E3C00B4FDF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAD03F2C3A5E3C00B4FDF1 /* ViewController.swift */; };
@@ -44,7 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3D94C62C48B67F006857B3 /* RealmSwift in Frameworks */,
+				4D3D94D32C48D36F006857B3 /* RealmSwift in Frameworks */,
 				4DBAD0512C3A683A00B4FDF1 /* SwiftyJSON in Frameworks */,
 				4D3D94B62C3A6FE8006857B3 /* Alamofire in Frameworks */,
 			);
@@ -107,7 +107,7 @@
 			packageProductDependencies = (
 				4DBAD0502C3A683A00B4FDF1 /* SwiftyJSON */,
 				4D3D94B52C3A6FE8006857B3 /* Alamofire */,
-				4D3D94C52C48B67F006857B3 /* RealmSwift */,
+				4D3D94D22C48D36F006857B3 /* RealmSwift */,
 			);
 			productName = reflectColor_gpt;
 			productReference = 4DBAD0382C3A5E3C00B4FDF1 /* reflectColor_gpt.app */;
@@ -140,7 +140,7 @@
 			packageReferences = (
 				4DBAD04F2C3A683A00B4FDF1 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				4D3D94B42C3A6FE8006857B3 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				4D3D94C22C48B67F006857B3 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				4D3D94CF2C48D36F006857B3 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 4DBAD0392C3A5E3C00B4FDF1 /* Products */;
 			projectDirPath = "";
@@ -409,7 +409,7 @@
 				minimumVersion = 5.9.1;
 			};
 		};
-		4D3D94C22C48B67F006857B3 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+		4D3D94CF2C48D36F006857B3 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift";
 			requirement = {
@@ -433,9 +433,9 @@
 			package = 4D3D94B42C3A6FE8006857B3 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
-		4D3D94C52C48B67F006857B3 /* RealmSwift */ = {
+		4D3D94D22C48D36F006857B3 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 4D3D94C22C48B67F006857B3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			package = 4D3D94CF2C48D36F006857B3 /* XCRemoteSwiftPackageReference "realm-swift" */;
 			productName = RealmSwift;
 		};
 		4DBAD0502C3A683A00B4FDF1 /* SwiftyJSON */ = {

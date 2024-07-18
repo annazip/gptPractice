@@ -62,19 +62,25 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="749"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="4Ch-9w-NOV">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="＋"/>
+                                    <connections>
+                                        <segue destination="gQ9-xD-cBV" kind="presentation" id="pWl-mX-89U"/>
+                                    </connections>
+                                </button>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bT1-Of-Qeh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Kci-5A-VWH">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Dnf-lz-5x0">
-                            <connections>
-                                <segue destination="gQ9-xD-cBV" kind="presentation" identifier="toNewItemView" id="G0l-Vm-Xi3"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Kci-5A-VWH"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="add" destination="4Ch-9w-NOV" id="e2F-fc-1kI"/>
                         <outlet property="tableView" destination="pwu-0s-7GE" id="qke-HG-gTS"/>
                     </connections>
                 </viewController>
